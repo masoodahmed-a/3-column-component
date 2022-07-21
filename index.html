@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>3-column preview card component</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="container flex flex-col sm:flex-row sm:min-h-screen items-center sm:m-auto p-5"
+    >
+      <div
+        class="left bg-orange-400 text-white p-10 rounded-t-md sm:rounded-none sm:rounded-l-md"
+      >
+        <img src="images/icon-sedans.svg" alt="" class="pb-3" />
+        <h3 class="text-xl pb-3">SEDANS</h3>
+        <p class="text-sm text-orange-200 pb-4">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit
+          quidem minus atque perferendis temporibus recusandae iure.
+        </p>
+        <button class="bg-white text-orange-400 px-3 py-1 rounded-full">
+          Learn More
+        </button>
+      </div>
+
+      <div class="center bg-teal-700 text-white p-10">
+        <img src="images/icon-suvs.svg" alt="" class="pb-3" />
+        <h3 class="text-xl pb-3">SUVS</h3>
+        <p class="text-sm text-teal-100 pb-4">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit
+          quidem minus atque perferendis temporibus recusandae iure.
+        </p>
+        <button class="bg-white text-teal-800 px-3 py-1 rounded-full">
+          Learn More
+        </button>
+      </div>
+
+      <div
+        class="right bg-teal-900 text-white p-10 rounded-b-md sm:rounded-none sm:rounded-r-md"
+      >
+        <img src="images/icon-luxury.svg" alt="" class="pb-3" />
+        <h3 class="text-xl pb-3">LUXURY</h3>
+        <p class="text-sm text-teal-200 pb-4">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit
+          quidem minus atque perferendis temporibus recusandae iure.
+        </p>
+        <button class="bg-white text-teal-900 px-3 py-1 rounded-full">
+          Learn More
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
